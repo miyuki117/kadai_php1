@@ -1,0 +1,82 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: red;
+    
+}
+
+
+.form_style{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+
+.form_style div{
+    margin-bottom: 10px;
+}
+
+.form_style li{
+    margin-bottom: 10px;
+}
+
+
+ul{
+    text-align: center;
+}
+
+th{
+    background-color: antiquewhite;
+}
+
+.left_style{
+    text-align: right;
+}
+
+
+
+.button {
+    /* margin: 0 0 1em; */
+    background-color: #2fbdbd;
+    color: #fff;
+    cursor: pointer;
+    /* transition: all 0.3s ease 0s; */
+    font-size:15px ;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    /* line-height: 60px; */
+    margin-top: 50px;
+    font-weight: bold;
+	border-radius: 100vh;
+	/* border-bottom: 7px solid #0686b2; */
+  }
+
+  table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-collapse:  collapse;     /* セルの線を重ねる */
+  }
+
+  th,td {
+    border: solid 1px;              /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}
+
+
+
+
+
+
+
