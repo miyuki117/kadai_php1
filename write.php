@@ -1,12 +1,14 @@
 <?php
 $name = $_POST["name"];
 $mail = $_POST["mail"];
+$breakfast = $_POST["breakfast"];
+
 
 //作成日時,名前,メールアドレス
-$str = date("Y-m-d H:i:s").",".$name.",".$mail;
+$str = date("Y-m-d H:i:s").",".$name.",".$mail.",".$breakfast;
 //File書き込み
 $file = fopen("data/data.txt","a");	// ファイル読み込み
-fwrite($file, $str."\n"); //ファイルに作成日時
+fwrite($file, $str."\n"); //ファイルを改行する
 fclose($file);
 
 

@@ -12,6 +12,7 @@
 <body>
 お名前：
 EMAIL：
+今日の朝ごはん：
 <ul>
 <li><a href="index.php">index.php</a></li>
 </ul>
